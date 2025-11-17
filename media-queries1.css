@@ -295,6 +295,11 @@ position: relative;
 .market-container{
   flex-direction: column;
   margin-top: 4rem;
+  
+}
+.market-section{
+   height: fit-content;
+  padding-bottom: 2rem;
 }
 .market1{
   height: 250px;
@@ -432,17 +437,9 @@ background-color: black;
 
 
 @media screen and (max-width:480px) {
-   .footer hr{
-  max-width: 340px;
-  }
-  .Frequently1{
-  width: 100%;
   
 
-}
-.footer{
-height: 140vh;
-}
+
 .overlay2 h3{
   font-size: 3rem;
   color: white;
@@ -457,34 +454,52 @@ height: 140vh;
   font-size: 1.5rem;
 }
 .container1-a p, .container1-b p, .container1-c p, .container1-d p{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .container2-a p, .container2-b p, .container2-c p, .container2-d p{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .learn, .identity, .history, .stream, .merchandise, .experts, .content, .Dimentional{
   height: 200px;
 }
+.more1{
+  font-size: 0.875rem;
+}
 .why-section{
-  height: 150vh;
+  height: fit-content;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 2rem;
+  
 }
 .why-section h3{
   font-size: 1.5rem;
 }
 .why2-a, .why2-b, .why2-c, .why2-d, .why2-e, .why2-f, .why2-g{
   flex-direction: column;
+  
 }
 .jobs{
 width: 100%;
-max-width:300px;
+max-width:400px;
+}
+.paragraph1{
+  font-size: 1rem;
+}
+.paragraph2{
+  font-size: 0.875rem;
+}
+.job-text a{
+  font-size: 0.875rem;
 }
 .why2{
-  height: 800px;
-}
+  height: 450px;
+}/*
 .questions-section{
   height: 120vh;
 }
+  */
 .questions-section h3{
  font-size: 1.5rem;
 }
@@ -493,7 +508,151 @@ max-width:300px;
   padding-right: 0rem;
 }
 .market-section{
-  height: 140vh;
+  height: fit-content;
+  padding-bottom: 2rem;
+}
+.market-section h3{
+  font-size: 1.5rem;
+}
+.market1{
+  height: 250px;
+}
+.market1-a img{
+   height: 100px;
+  width: 100px;
+}
+.market2{
+  height: 250px;
+}
+.market2-a img{
+   height: 100px;
+  width: 100px;
+}
+
+.market3{
+  height: 250px;
+}
+.market3-a img{
+   height: 100px;
+  width: 100px;
+}
+.more2{
+  font-size: 0.875rem;
+}
+
+.market1-b .paragraph3 {
+  font-size: 1rem;
+}
+.market1-b .paragraph4 {
+  font-size: 0.875rem;
+}
+
+.market2-b .paragraph5 {
+  font-size: 1rem;
+}
+.market2-b .paragraph6 {
+  font-size: 0.875rem;
+}
+
+.market3-b .paragraph7 {
+  font-size: 1rem;
+}
+.market3-b .paragraph8 {
+  font-size: 0.875rem;
+}
+
+.about-text h3{
+  font-size: 1.5rem;
+}
+.about-text p{
+ font-size: 1rem;
+}
+.about-text{
+  
+  left:1rem;
+}
+.about-text button{
+  font-size: 0.875rem;
+}
+.Frequently-container{
+  padding-top: 2rem;
+}
+.question1{
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.question1 i{
+  font-size: 0.875rem;
+}
+.answer1, .answer2, .answer3, .answer4, .answer5, .answer6{
+ font-size: 0.875rem;
+
+}
+.contact-section{
+  padding-left: 1rem;
+}
+.contact-section h3{
+font-size: 1.5rem;
+
+}
+.contact-section h2{
+  font-size: 1rem;
+}
+.contact-section button{
+  font-size:0.875rem ;
+}
+
+ .footer hr{
+  max-width: 340px;
+  margin-top: 1rem;
+  }
+  .Frequently1{
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+.footer{
+height: fit-content;
+padding-bottom: 1rem;
+padding-left: 1rem;
+}
+.footer-container{
+  padding-top: 1rem;
+  gap: 50px;
+}
+.footer-icons i{
+font-size: 1rem;
+}
+.footer1 h3{
+  
+font-size: 1.5rem;
+}
+.footer h2{
+  font-size: 1rem;
+}
+.footer2 h3{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.footer3 h3{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.footer2 ul li{
+  font-size: 1rem;
+}
+.footer3 a{
+  font-size: 1rem;
+}
+.footer3  a i{
+  font-size:1rem ;
+}
+
+.copyright{
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 }
 
