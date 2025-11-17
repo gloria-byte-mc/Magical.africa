@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll to Hidden Div</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    .container {
+      width: 300px;
+      height: 160px; /* small height = some divs hidden */
+      overflow-y: auto;
+      border: 2px solid #333;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .box {
+      height: 120px;
+      background: #e0e0e0;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      padding: 20px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background: #4a7cff;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>Scroll To Reveal Div Example</h2>
+
+  <div class="container" id="myContainer">
+    <div class="box">Div 1</div>
+    <div class="box">Div 2</div>
+    
+    <!-- This div is below the visible area -->
+    <div class="box" id="hiddenDiv">Div 3 (Hidden)</div>
+    
+    <div class="box">Div 4</div>
+  </div>
+
+  <button id="showBtn">Scroll to Div 3</button>
+
+  <script>
+    document.getElementById("showBtn").addEventListener("click", () => {
+      const hiddenDiv = document.getElementById("hiddenDiv");
+
+      hiddenDiv.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    });
+  </script>
+
+</body>
+</html>

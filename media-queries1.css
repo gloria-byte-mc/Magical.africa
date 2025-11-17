@@ -1,0 +1,489 @@
+/*
+@media screen and (max-width:1440px)  {
+ .grids{
+  padding-left: 0rem;
+  padding-right: 0rem;
+ }
+ .grid1, .grid7{
+  max-width:100px !important;
+  
+ }
+ .grid1 .a{
+  
+  border-bottom-right-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+ .grid1 .b{
+  border-bottom-right-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+ .grid7 .l{
+  border-bottom-left-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+ .grid7 .m{
+  border-bottom-left-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+
+.service-container{
+  padding-left: 6rem;
+  padding-right:6rem ;
+}
+
+.why-grids{
+  padding-left: 6rem;
+  padding-right:6rem ;
+}
+.market-container{
+  padding-left: 6rem;
+  padding-right:6rem ;
+}
+.footer{
+  padding-left: 6rem;
+}
+
+  .footer hr{
+    width: 1200px;
+  }
+}
+
+
+@media screen and (max-width:1280px) {
+
+  .grid1, .grid7{
+  display: none;
+  
+ }
+
+ .service-container{
+  padding-left: 2rem;
+  padding-right:2rem ;
+}
+
+.why-grids{
+  padding-left: 2rem;
+  padding-right:2rem ;
+}
+
+.market-container{
+  padding-left: 2rem;
+  padding-right:2rem ;
+}
+
+.Frequently1{
+  width: 80%;
+max-width: 700px;
+
+}
+.Frequently2{
+  width: 100%;
+  max-width: 900px ;
+  
+}
+.footer{
+  padding-left: 4rem;
+}
+.question1{
+  font-size: 1.3rem;
+ 
+ 
+}
+
+
+
+  .footer hr{
+    max-width: 1150px;
+  }
+}
+
+
+@media screen and (min-width:1180px) {
+   .footer hr{
+    max-width: 1100px;
+  }
+  .Frequently1{
+  width: 50%;
+max-width: 700px;
+
+}
+.Frequently2{
+  width: 70%;
+  max-width: 900px ;
+  
+}
+.footer{
+  height: 45vh;
+}
+}
+*/
+@media screen  and (max-width:1440px) {
+  .grids{
+  padding-left: 2rem;
+  padding-right: 2rem;
+ }
+ .grid1, .grid7{
+  max-width:100px !important;
+  display: none;
+ }
+ .grid1 .a{
+  
+  border-bottom-right-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+ .grid1 .b{
+  border-bottom-right-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+ .grid7 .l{
+  border-bottom-left-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+ .grid7 .m{
+  border-bottom-left-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+
+.service-container{
+  padding-left: 6rem;
+  padding-right:6rem ;
+}
+
+.why-grids{
+  padding-left: 6rem;
+  padding-right:6rem ;
+}
+.market-container{
+  padding-left: 6rem;
+  padding-right:6rem ;
+}
+.footer{
+  padding-left: 6rem;
+}
+
+  .footer hr{
+    width: 1200px;
+  }
+}
+
+
+
+@media screen and (max-width:1024px) {
+  
+  .grid1, .grid7{
+  display: none;
+  
+ }
+
+ .service-container{
+  padding-left: 2rem;
+  padding-right:2rem ;
+}
+
+.why-grids{
+  padding-left: 2rem;
+  padding-right:2rem ;
+}
+
+.market-container{
+  padding-left: 2rem;
+  padding-right:2rem ;
+}
+
+.Frequently1{
+  width: 100%;
+max-width: 700px;
+
+}
+.Frequently2{
+  width: 100%;
+  max-width: 900px ;
+  
+}
+.footer{
+  padding-left: 4rem;
+  height: 45vh;
+}
+.question1{
+  font-size: 1.3rem;
+ 
+ 
+}
+
+}
+
+@media screen and (max-width:768px) {
+ 
+
+ .nav-buttons .login{
+  display: none;
+ }
+ .nav-buttons .search{
+  display: none;
+ }
+ .navbar2{
+  display: none;
+ }
+ .hero-section{
+  display: none;
+ }
+ .hero-section2{
+ display: grid;
+ background-color:black;
+height: 100vh;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+padding-top: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+position: relative;
+ }
+
+ .hero-grid1{
+  width: 100%;
+  background-color: yellow;
+  border-radius: 20px;
+  overflow: hidden;
+ }
+ .hero-grid1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.overlay2 h3{
+  font-size: 4rem;
+  color: white;
+}
+.overlay2 h2{
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+ #menu{
+  display: block;
+  font-size: 20px;
+ }
+
+ .service-container{
+  gap: 2rem;
+ }
+.why-grids{
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 4rem;
+}
+.why1{
+  display: none;
+}
+
+.market-container{
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.market1{
+  height: 250px;
+}
+.market1-a img{
+   height: 100px;
+  width: 100px;
+}
+.market2{
+  height: 250px;
+}
+.market2-a img{
+   height: 100px;
+  width: 100px;
+}
+
+.market3{
+  height: 250px;
+}
+.market3-a img{
+   height: 100px;
+  width: 100px;
+}
+.market1-b{
+  padding-top: 0.5rem;
+}
+.market1-b .paragraph4{
+  
+  margin-top: 0.5rem ;
+  margin-bottom: 0.5rem;
+  
+}
+.market3-b .paragraph8{
+  
+  margin-top: 0.5rem ;
+   margin-bottom: 0.5rem;
+  
+}
+.market3-b{
+  padding-top: 0.5rem;
+}
+.market2-b .paragraph6{
+  
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.market2-b{
+  padding-top: 0.5rem;
+}
+
+.explore-marketplace{
+  padding-top: 2rem;
+}
+.tribes-section{
+ display: none;
+}
+.tribes-section2{
+display: grid;
+height: 100vh;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+padding-left: 1rem;
+padding-right: 1rem;
+position: relative;
+background-color: black;
+}
+ .tribes-grid1{
+  width: 100%;
+  background-color: yellow;
+  border-radius: 20px;
+  overflow: hidden;
+ }
+ .tribes-grid1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+ .overlay3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.overlay3 h3{
+  font-size: 3rem;
+  color: white;
+}
+.overlay3 h2{
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.overlay3 button{
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  
+}
+
+.Frequently-container{
+  flex-direction: column;
+  gap: 0px;
+  padding-top: 4rem;
+}
+.Frequently1{
+  width: 100%;
+  padding-right: 0rem;
+  
+
+}
+.Frequently2{
+  display: none;
+}
+.footer{
+  height: 100vh;
+}
+ .footer-container{
+    flex-direction: column;
+  }
+  .footer hr{
+  max-width: 460px;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+   .footer hr{
+  max-width: 340px;
+  }
+  .Frequently1{
+  width: 100%;
+  
+
+}
+.overlay2 h3{
+  font-size: 3rem;
+  color: white;
+}
+.overlay2 h2{
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.service-section h3{
+  font-size: 1.5rem;
+}
+.container1-a p, .container1-b p, .container1-c p, .container1-d p{
+  font-size: 1.3rem;
+}
+
+.container2-a p, .container2-b p, .container2-c p, .container2-d p{
+  font-size: 1.3rem;
+}
+.learn, .identity, .history, .stream, .merchandise, .experts, .content, .Dimentional{
+  height: 200px;
+}
+.why-section h3{
+  font-size: 1.5rem;
+}
+.why2-a, .why2-b, .why2-c, .why2-d, .why2-e, .why2-f, .why2-g{
+  flex-direction: column;
+}
+.jobs{
+width: 100%;
+max-width:300px;
+}
+.why2{
+  height: 800px;
+}
+.questions-section h3{
+ font-size: 1.5rem;
+}
+.Frequently1{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+}
+
+
+

@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.footer{
+  height: 40vh;
+  background-color: #1A1A1A;
+  padding-left: 18rem;
+  padding-right: 3rem;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+ 
+  gap: 100px;
+}
+.footer1{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+}
+.footer-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-icons i{
+  color: white;
+  font-size: 1.5rem;
+}
+.footer1 h3{
+ font-size: 2rem;
+ font-weight: 600;
+ color: white;
+}
+.footer1 h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+}
+.footer2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer2 h3{
+  font-size: 2rem;
+  color: white;
+}
+
+.footer2 ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer2 ul li{
+ list-style: none;
+ color: white;
+ font-size: 1.5rem;
+ font-weight: 400;
+}
+.footer3{
+  display: flex;
+  flex-direction: column;
+}
+.footer3 h3{
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer3 a{
+color: white;
+font-weight: 400;
+font-size: 1.5rem;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+}
+
+.footer3 a i{
+color: white;
+font-size: 1.5rem;
+}
+
+.footer hr{
+  height: 0.5px;
+  background-color: #6E6D6D;
+  border: none;
+  margin-top: 2rem;
+  max-width: 1200px;
+}
+
+.copyright{
+  font-size: 1.5rem;
+  color: #6E6D6D;
+  margin-top: 2rem;
+}

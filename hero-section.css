@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.hero-section{
+  height: fit-content;
+  display: grid;
+  grid-template-columns: auto;
+ 
+}
+.hero-section2{
+  display: none;
+}
+
+.hero-heading{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20vh;
+  justify-content: center;
+}
+.hero-heading h2{
+  font-size: 3rem;
+  font-weight: 600;
+}
+.hero-heading h3{
+  font-size: 2rem;
+  color: #C96430;
+  font-weight: 500;
+}
+
+.grids{
+  
+  height: 62vh;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+}
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7{
+width: 100%;
+max-width: 300px;
+background-color: white;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.grid1 .a{
+  overflow: hidden;
+  height: 500px;
+  border-radius: 20px;
+}
+.grid1 .b{
+overflow: hidden;
+height: 500px;
+border-radius: 20px;
+}
+
+.grid1 .a img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid1 .b img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid2{
+  padding-top: 10rem;
+}
+.grid2 .c{
+  height: 500px;
+  overflow: hidden;
+}
+.grid2 .c img{
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.grid2 .d{
+overflow: hidden;
+height: 300px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.grid2 .d img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid3{
+  padding-top: 15rem;
+}
+.grid3 .e{
+  height: 500px ;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.grid3 .e img{
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.grid3 .f{
+overflow: hidden;
+height: 200px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.grid3 .f img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid4{
+  padding-top: 25rem;
+}
+.grid4 .g{
+  height: 500px ;
+  overflow: hidden;
+   border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.grid4 .g img{
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.grid5{
+  padding-top: 15rem;
+}
+.grid5 .h{
+  height: 500px ;
+  overflow: hidden;
+  border-radius: 20px;
+ 
+}
+.grid5 .h img{
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid5 .i{
+overflow: hidden;
+height: 200px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.grid5 .i img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.grid6{
+  padding-top: 10rem;
+}
+.grid6 .j{
+  height: 500px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.grid6 .j img{
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid6 .k{
+overflow: hidden;
+height: 300px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.grid6 .k img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.grid7 .l{
+  overflow: hidden;
+  height: 500px;
+  border-radius: 20px;
+}
+.grid7 .m{
+overflow: hidden;
+height: 500px;
+border-radius: 20px;
+}
+
+.grid7 .l img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid7 .m img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grids::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px; 
+  background: linear-gradient(to top, white, transparent);
+  pointer-events: none; 
+  z-index: 10;
+}
+
+.grid-button{
+  position: absolute;
+  background-color: #C96430;
+  bottom: 8%;
+  height: 48px;
+  width: 48px;
+ border-radius: 16px;
+  border: none;
+  border-radius: 10px;
+  left: 50vw;
+  z-index: 1000;
+  transform: translateX(-50%);
+  animation: moveUpDown 1.5s ease-in-out infinite;
+}
+.grid-button i{
+  color: white;
+  
+}
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+}

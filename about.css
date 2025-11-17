@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+.about-section{
+  height: 50vh;
+  background-image: url(images/freepik__a-breathtaking-african-landscape-at-sunrise-with-s__96633.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  position: relative;
+}
+
+.about-text{
+  position: absolute;
+  top: 35%;
+  left:3rem;
+}
+
+.about-text h3{
+  color: white;
+  font-size: 2rem;
+  font-size: 600;
+}
+.about-text p{
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+.about-text button{
+   color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 6px 15px;
+  border-radius: 10px;
+  border: 2px solid #C56A32;
+  border-color: #C56A32;
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+.navbar{
+  height: 7vh;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+.nav-tribe h4{
+  font-weight: 600;
+  font-size: 1rem;
+}
+.nav-logo .span1{
+   height: 30px;
+   width: 30px;
+   background-color: yellow;
+   border-radius: 50px;
+}
+.navbar2{
+  height: 5vh;
+  
+}
+.navbar2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.navbar2 ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1.5rem;
+}
+.navbar2 ul li a{
+  text-decoration: none;
+  color: #666;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  position: relative;
+  padding-bottom: 5px;
+}
+.active{
+  color: black !important;
+  font-weight: 600;
+}
+.nav-buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.nav-buttons .search{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background-color: transparent;
+}
+.nav-buttons .search i{
+  font-size: 12px;
+}
+.nav-buttons .login{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;  border: none;
+  background-color: transparent;
+
+}
+.nav-buttons .login i{
+  font-size: 12px;
+   transition: transform 0.3s ease;
+}
+
+
+.login.active2 i{
+  transform: rotate(-180deg);
+}
+
+
+
+.navbar2 ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.navbar2 ul li a:hover::after,
+.navbar2 ul li a.active::after {
+  width: 100%;
+}
+
+#menu{
+  display: none;
+}

@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.why-section{
+  height: 100vh;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-section h3{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  
+}
+
+.why-grids{
+  display: flex;
+  flex-direction: row;
+  margin-top: 7rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  gap: 10px;
+}
+.why1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  
+  height: 708px;
+  border: 0.5px solid #e1e1e1;
+  gap: 30px;
+}
+
+.why1-a{
+ width: 100%;
+ overflow: hidden;
+ height: 500px;
+ border-radius: 20px;
+}
+
+.why1-a img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.why1-b{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.paragraph1{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+
+}
+.paragraph2{
+  color: #1E1E1E;
+}
+.why1-b a{
+  color:#6B8E23 ;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.why1-b a i{
+  color: #6B8E23;
+}
+
+.why2{
+  width: 100%;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 708px;
+  overflow-y: auto;
+}
+
+.show-more2{
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+}
+.more2{
+   color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 6px 15px;
+  border-radius: 10px;
+  border: 2px solid #C56A32;
+  border-color: #C56A32;
+}
+
+.why2-a{
+  display: flex;
+  flex-direction: row;
+  padding:1.5rem ;
+  gap: 10px;
+  height: fit-content;
+   border: 0.5px solid #e1e1e1;
+}
+.jobs{
+  width: 100%;
+  max-width: 170px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.jobs-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+}
+.jobs-text a{
+   color:#6B8E23 ;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  gap: 5px;
+  
+
+}
+
+.jobs-text a i{
+  color: #6B8E23;
+}
+
+.jobs img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.why2-b{
+  display: flex;
+  flex-direction: row;
+  padding:1.5rem ;
+  gap: 10px;
+  height: fit-content;
+   border: 0.5px solid #e1e1e1;
+}
+
+
+.why2-c{
+  display: flex;
+  flex-direction: row;
+  padding:1.5rem ;
+  gap: 10px;
+  height: fit-content;
+  
+   border: 0.5px solid #e1e1e1;
+}
+
+.why2-d{
+   display: flex;
+  flex-direction: row;
+  padding:1rem ;
+  gap: 10px;
+  height: fit-content;
+   border: 0.5px solid #e1e1e1;
+}
+.why2-e{
+     display: flex;
+  flex-direction: row;
+  padding:1rem ;
+  gap: 10px;
+  height: fit-content;
+   border: 0.5px solid #e1e1e1;
+}
+
+.why2-f{
+     display: flex;
+  flex-direction: row;
+  padding:1rem ;
+  gap: 10px;
+  height: fit-content;
+   border: 0.5px solid #e1e1e1;
+}
+
+.why2-g{
+     display: flex;
+  flex-direction: row;
+  padding:1rem ;
+  gap: 10px;
+  height: fit-content;
+   border: 0.5px solid #e1e1e1;
+}
+
