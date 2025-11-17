@@ -440,6 +440,9 @@ background-color: black;
   
 
 }
+.footer{
+height: 140vh;
+}
 .overlay2 h3{
   font-size: 3rem;
   color: white;
@@ -463,6 +466,9 @@ background-color: black;
 .learn, .identity, .history, .stream, .merchandise, .experts, .content, .Dimentional{
   height: 200px;
 }
+.why-section{
+  height: 150vh;
+}
 .why-section h3{
   font-size: 1.5rem;
 }
@@ -476,12 +482,18 @@ max-width:300px;
 .why2{
   height: 800px;
 }
+.questions-section{
+  height: 120vh;
+}
 .questions-section h3{
  font-size: 1.5rem;
 }
 .Frequently1{
   padding-left: 0rem;
   padding-right: 0rem;
+}
+.market-section{
+  height: 140vh;
 }
 }
 
