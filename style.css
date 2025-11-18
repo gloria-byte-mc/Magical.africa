@@ -4,6 +4,70 @@
   box-sizing: border-box;
   font-family: 'Noto Sans', sans-serif;
 }
+.humburger-menu{
+  background-color: white;
+  position: absolute;
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  z-index: 1000;
+  left: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  gap: 2rem;
+  display: none;
+}
+.menu-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-menu h3{
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+
+
+
+.humburger-menu ul{
+ display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2rem;
+}
+.humburger-menu ul li a{
+  text-decoration: none;
+  color: #666;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  position: relative;
+  padding-bottom: 5px;
+}
+.login2{
+  width:100px ;
+  padding: 6px 0;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #C56A52;
+}
+.nav-tribe img{
+ height: 50px;
+ 
+}
+.nav-tribe{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .navbar{
   height: 7vh;
   border-bottom: 1px solid #e1e1e1;
@@ -13,7 +77,7 @@
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  
+  position: relative;
 }
 .nav-tribe h4{
   font-weight: 600;

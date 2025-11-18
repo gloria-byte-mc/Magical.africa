@@ -52,6 +52,7 @@
 .footer2 h3{
   font-size: 2rem;
   color: white;
+  font-weight: 400;
 }
 
 .footer2 ul{
@@ -73,6 +74,7 @@
   font-size: 2rem;
   color: white;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 .footer3 a{
 color: white;
@@ -95,6 +97,7 @@ font-size: 1.5rem;
   background-color: #6E6D6D;
   border: none;
   margin-top: 2rem;
+  width: 100%;
   max-width: 1200px;
 }
 

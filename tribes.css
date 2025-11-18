@@ -296,11 +296,13 @@ background-color: black;
 .overlay h3{
   font-size: 4rem;
   color: white;
+  text-align: center;
 }
 .overlay h2{
   color: white;
   font-size: 3rem;
   font-weight: 400;
+  text-align: center;
 }
 .overlay button{
   width: 200px;

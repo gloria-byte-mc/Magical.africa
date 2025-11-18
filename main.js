@@ -162,3 +162,30 @@ questions.forEach((question) => {
     }
   });
 });
+
+
+const Menu = document.getElementById('menu');
+const HumburgerMenu = document.querySelector('.humburger-menu');
+
+
+Menu.addEventListener('click', (e) => {
+  e.stopPropagation(); 
+  HumburgerMenu.style.display =
+    HumburgerMenu.style.display === "flex" ? "none" : "flex";
+});
+
+
+document.addEventListener('click', (e) => {
+  if (!HumburgerMenu.contains(e.target) && e.target !== Menu) {
+    HumburgerMenu.style.display = "none";
+  }
+});
+
+
+const Xspan = document.querySelector('.x-span');
+
+Xspan.addEventListener('click', ()=>{
+  const HumburgerMenu = document.querySelector('.humburger-menu');
+
+  HumburgerMenu.style.display = "none";
+});

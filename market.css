@@ -61,10 +61,11 @@
 }
 .market1-b .paragraph3{
   font-size: 1.5rem;
+  font-weight: 600;
   
 }
 .market1-b .paragraph4{
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
   
 }
@@ -100,12 +101,12 @@
 }
 .market2-b .paragraph5{
   font-size: 1.5rem;
-  
+  font-weight: 600;
 }
 .market2-b .paragraph6{
   font-size: 1rem;
   margin-top: 1rem;
-  
+  font-size: 1.5rem;
 }
 
 
@@ -139,12 +140,13 @@
 }
 .market3-b .paragraph7{
   font-size: 1.5rem;
+  font-weight: 600;
   
 }
 .market3-b .paragraph8{
   font-size: 1rem;
   margin-top: 1rem;
-  
+  font-size: 1.5rem;
 }
 .explore-marketplace{
   padding-top: 3rem;

@@ -60,7 +60,7 @@
 .answer1, .answer2, .answer3, .answer4, .answer5, .answer6{
  color: #1E1E1E;
  display: none;
-
+ font-weight: 400;
 }
 .question1 i{
   color: #6B8E23;
