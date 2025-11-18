@@ -699,5 +699,24 @@ font-size: 1.5rem;
 }
 }
 
-
+@media screen and (max-height:800px) {
+  .why-section{
+    height: fit-content;
+  }
+  .market-section{
+    height: fit-content;
+    padding-bottom: 4rem;
+  }
+  .questions-section{
+    height: fit-content;
+    margin-bottom: 4rem;
+  }
+  .footer{
+    height: fit-content;
+    padding-bottom: 2rem;
+  }
+  .navbar{
+    height: fit-content;
+  }
+}
 
