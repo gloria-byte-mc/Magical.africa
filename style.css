@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: 'Noto Sans', sans-serif;
 }
+
+
 .humburger-menu{
   background-color: white;
   position: absolute;
@@ -31,6 +33,9 @@
   color: black;
 }
 
+#nav-icon2{
+  font-size: 1rem;
+}
 
 
 .humburger-menu ul{
@@ -52,12 +57,14 @@
   padding: 6px 0;
   font-size: 1rem;
   display: flex;
+  font-weight: 600;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background-color: transparent;
-  border: 2px solid #C56A52;
+  background-color:#3eb489;
+  border: none;
+  color: white;
 }
 .nav-tribe img{
  height: 50px;
@@ -75,9 +82,32 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   padding-right: 1rem;
   position: relative;
+  background-color: white;
+}
+
+.navbar ul{
+  flex-direction: row;
+  display: flex;
+   list-style: none;
+  gap: 1.5rem;
+  
+}
+
+.navbar ul li a{
+   text-decoration: none;
+  color: #666;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  position: relative;
+  padding-bottom: 5px;
+}
+.nav-menu {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .nav-tribe h4{
   font-weight: 600;
@@ -134,7 +164,7 @@
   background-color: transparent;
 }
 .nav-buttons .search i{
-  font-size: 12px;
+  font-size: 1rem;
 }
 .nav-buttons .login{
   font-size: 1rem;
@@ -157,7 +187,7 @@
 
 
 
-.navbar2 ul li a::after {
+.navbar ul li a::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -168,8 +198,8 @@
   transition: width 0.3s ease;
 }
 
-.navbar2 ul li a:hover::after,
-.navbar2 ul li a.active::after {
+.navbar ul li a:hover::after,
+.navbar ul li a.active::after {
   width: 100%;
 }
 

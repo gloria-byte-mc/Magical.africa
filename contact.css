@@ -7,14 +7,14 @@ font-family: 'Noto Sans', sans-serif;
 
 .contact-section{
   height: 35vh;
-  background-color: #FFFAF3;
+  background-color: #f7f5f2;
   padding-left: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .contact-section h3{
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .contact-section h2{
@@ -26,10 +26,11 @@ font-family: 'Noto Sans', sans-serif;
    color:white;
     font-size: 1rem;
     font-weight: 600;
-    background-color:#C56A32;
+    background: linear-gradient(135deg, #C3841C, #F5A623);
     padding: 6px 15px;
     width: 150px;;
     border-radius: 10px;
     border: none;
     margin-top: 1rem;
+    box-shadow: 0 8px 20px rgba(195, 132, 28, 0.3);
 }

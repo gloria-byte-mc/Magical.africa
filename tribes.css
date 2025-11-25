@@ -311,9 +311,12 @@ background-color: black;
   border: none;
   font-size: 1.5rem;
   font-weight: 600;
-  background-color: white;
-  
+  background-color: #3eb489;
+  color: white;
  
+}
+.overlay button:hover{
+  background-color: #37a37c;
 }
 
 

@@ -19,6 +19,8 @@ More1.addEventListener('click', () => {
 });
 */
 
+/*
+
 const More1 = document.querySelector('.more1');
 
 More1.addEventListener('click', () => {
@@ -45,65 +47,21 @@ More1.addEventListener('click', () => {
   
   if (!isShowing) {
     setTimeout(() => {
-      target.scrollIntoView/*({ behavior: "smooth", block: "start" });*/ ();
+      target.scrollIntoView/*({ behavior: "smooth", block: "start" });*/
+      /*
+      ();
     }, 10); 
   }
 });
 
-
-/*
-const More2 = document.querySelector('.more2');
-const why2 = document.querySelector('.why2');
-
-More2.addEventListener('click', () => {
-  why2.scrollTo({
-    top: why2.scrollHeight,
-    behavior: "smooth"
-  });
-});
 */
 
 
 
-/*
-const More2 = document.querySelector('.more2');
-const why2Container = document.querySelector('.why2');
 
-const cards = document.querySelectorAll('.why2-a, .why2-b, .why2-c, .why2-d, .why2-e, .why2-f, .why2-g');
 
-let currentIndex = 0;
 
-More2.addEventListener('click', () => {
-  currentIndex++;
-  
-  // If we've gone past the last card, scroll back to top
-  if (currentIndex >= cards.length) {
-    why2Container.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-    currentIndex = 0;
-    More2.textContent = "Show more";
-  } else {
-    // Scroll to the next card
-    const nextCard = cards[currentIndex];
-    
-    // Calculate position relative to the container
-    const cardTop = nextCard.offsetTop - why2Container.offsetTop;
-    
-    // Scroll within the why2 container only
-    why2Container.scrollTo({
-      top: cardTop,
-      behavior: 'smooth'
-    });
-    
-    // Update button text when reaching the last card
-    if (currentIndex === cards.length - 1) {
-      More2.textContent = "Back to top";
-    }
-  }
-});
-*/
+
 
 
 const More2 = document.querySelector('.more2');
@@ -189,3 +147,24 @@ Xspan.addEventListener('click', ()=>{
 
   HumburgerMenu.style.display = "none";
 });
+
+
+
+
+ const slider = document.getElementById("slider");
+const next = document.getElementById("next");
+const prev = document.getElementById("prev");
+
+// Scroll width = width of 1 card + gap
+let scrollAmount = slider.querySelector(".servicea").offsetWidth + 20;
+
+next.addEventListener("click", () => {
+  slider.scrollLeft += scrollAmount * 3; // move 3 cards forward
+});
+
+prev.addEventListener("click", () => {
+  slider.scrollLeft -= scrollAmount * 3; // move 3 cards back
+});
+
+
+

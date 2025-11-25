@@ -11,16 +11,23 @@
 }
 .questions-section h3{
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .Frequently-container{
   display: flex;
   flex-direction: row;
   gap: 30px;
- justify-content: center;
- padding-top: 7rem;
- height: 90%;
+  justify-content: center;
+  position: relative;
+  height: 90%;
+}
+.Frequently-container img{
+  position: absolute;
+  z-index: -1000;
+  bottom: 10%;
+  right: 5%;
+ 
 }
 .Frequently1{
   display: flex;
@@ -29,7 +36,7 @@
   padding-left: 3rem;
   padding-right: 3rem;
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   
   display: flex;
   flex-direction: column;
@@ -39,16 +46,21 @@
 .question1{
   font-size: 1.3rem;
   font-weight: 600;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  border-top: 1px solid #6E6D6D;
-  border-bottom: 1px solid #6E6D6D;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  border: 2px solid #e3e3e3;
+  background-color: white;
   padding-left: 1rem;
   padding-right: 1rem;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.question1:hover{
+  border-color: #3eb489;
+  background-color: rgba(62, 180, 137, 0.05);
 }
 .question1-a{
   display: flex;
@@ -63,7 +75,7 @@
  font-weight: 400;
 }
 .question1 i{
-  color: #6B8E23;
+  color: #3eb489;
 }
 .Frequently2{
   width: 100%;
