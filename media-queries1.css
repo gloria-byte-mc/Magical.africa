@@ -856,6 +856,13 @@ font-size: 1.5rem;
 
 }
 
+
+@media screen and (max-width:430px) {
+  .hero-buttons button{
+padding: 10px  35px;
+  }
+}
+
 @media screen and (max-height:800px) {
   .why-section{
     height: fit-content;
